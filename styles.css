@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #8f24e6;
+    text-align: center;
+}
+
+header {
+    background-color: #f4f4f4;
+    color: #8f24e6;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #8f24e6;
+}
+
+.banner {
+    width: 100%; /* Definir a largura como 100% */
+    margin: 0; /* Remover margens */
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    color: #8f24e6;
+    margin-bottom: 20px;
+}
+
+#sobre {
+    background-color: #8f24e6;
+    color: #f4f4f4;   
+}
+
+#sobre h2 {
+    color: #fff;
+}
+
+#sobre p {
+    color: #fff;
+}
+
+#produtos {
+    margin-left: 45px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#produtos img {
+    max-width: 425px;
+    margin-bottom: 0;
+}
+
+#produtos h3 {
+    color: #242424;
+    text-align: center;
+}
+
+#produtos p {
+    color: #242424;
+    text-align: center;
+}
+
+#contato {
+    background-color: #8f24e6;
+    color: #f4f4f4;   
+}
+
+#contato h2 {
+    color: #fff;
+}
+
+#contato p {
+    text-align: center;
+    color: #fff;
+}
+
+footer {
+    background-color: #f4f4f4;
+    color: #8f24e6;
+    text-align: center;
+    padding: 5px;
+    position: fixed; /* Fixar no rodapé */
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+    color: #333;
+    text-align: justify;
+}
+
+h4 {
+    padding:10px;
+}
